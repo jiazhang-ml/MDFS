@@ -1,7 +1,7 @@
 % This is an example file on how the MDFS [1] program could be used.
 
 % [1] J. Zhang, Z. Luo, C. Li, C. Zhou, S. Li: 
-% Manifold regularized discriminative feature selection for multi-label learning. Pattern Recognition, 2019.
+% Manifold regularized discriminative feature selection for multi-label learning, to be appear in PR.
 
 % Please feel free to contact me (zhangjia_gl@163.com), if you have any problem about this program.
 
@@ -42,6 +42,9 @@ feature_idx = idx(1:pca_remained);
 Num = 10;Smooth = 1;  
 
 % Train and test
+% If you use MLKNN as the classifier, please cite the literature [2]
+% [2] Min-Ling Zhang, Zhi-Hua Zhou:
+% ML-KNN: A lazy learning approach to multi-label learning. Pattern Recognition 40(7): 2038-2048 (2007)
 for i = 1:pca_remained
     fprintf('Running the program with the selected features - %d/%d \n',i,pca_remained);
     
