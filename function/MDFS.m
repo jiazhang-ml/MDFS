@@ -10,7 +10,7 @@ function [ W, obj ] = MDFS( X_train, Y_train, para )
 %          para--the set of parameters
 %
 % Outputs:  
-%          W--A d x q array, d is the number of features, mapping matrix,
+%          W--A d x q array, d is the number of features, coefficient matrix for feature selection
 %
 %          obj--The objective values
 %
