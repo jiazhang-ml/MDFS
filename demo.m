@@ -44,7 +44,7 @@ Num = 10;Smooth = 1;
 % Train and test
 % If you use MLKNN as the classifier, please cite the literature [2]
 % [2] M.-L. Zhang, Z.-H. Zhou:
-% ML-KNN: A lazy learning approach to multi-label learning. Pattern Recognition 40(7): 2038-2048 (2007)
+% ML-KNN: A lazy learning approach to multi-label learning. Pattern Recognition 2007, 40(7): 2038-2048.
 for i = 1:pca_remained
     fprintf('Running the program with the selected features - %d/%d \n',i,pca_remained);
     
